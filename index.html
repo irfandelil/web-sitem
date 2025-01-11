@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SXGF20EMDM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SXGF20EMDM');
+</script>
 
 </head>
 <body>
@@ -28,7 +37,19 @@
             <div class="profil">
                 <img src="resimler/profil.jpeg" alt="Profil Resmi" class="profil-resim">
                 <h2>İrfan Delil</h2>
+                
                 <p>Merhaba! Ben İrfan Delil. Web geliştirme, PHP, JavaScript ve SQL teknolojileri ile çalışıyorum. Tutkuyla kod yazıyorum ve modern, kullanıcı dostu projeler geliştirmeyi seviyorum.</p>
+                <p>Merhaba! Ben İrfan Delil, 21 yaşında bir yazılım geliştiricisiyim ve Çankırı'da yaşıyorum. Teknolojiye olan ilgim küçük yaşlardan itibaren başladı ve zamanla bu alanda derinleşerek tutkulu bir yazılımcı haline geldim. Arabalar ve teknolojik aletlerle uğraşmak, her anımda beni heyecanlandıran aktiviteler arasında yer alıyor.
+
+                    Kendi kendime öğrendiğim kod yazma becerilerimle, birçok projeye imza attım ve bu projelerde sürekli olarak yenilikçi çözümler ürettim. Araçlar ve otomotiv dünyası, bana sadece teknik bilgi kazandırmakla kalmayıp, aynı zamanda problem çözme yeteneğimi geliştirdi. Araçların iç yapılarından, motor teknolojilerine kadar her detay bana ilham veriyor ve bu tutkumu yazılım geliştirme alanına taşıyorum.
+                    
+                    Teknolojik cihazlar ve yazılım araçlarıyla çalışmak, her zaman bana yeni bakış açıları kazandırdı. Geliştirdiğim projelerde, kullanıcı dostu ve modern çözümler sunmayı hedefliyorum. Yaratıcı düşünmeyi ve sınırları zorlamayı seviyorum. Her yeni teknoloji beni heyecanlandırıyor ve bu alandaki gelişmeleri takip etmek için sürekli çaba gösteriyorum.
+                    
+                    Benim için kod yazmak sadece bir iş değil, aynı zamanda bir tutku. Her satırda yenilik ve mükemmellik arayarak, kendimi her geçen gün daha da geliştiriyorum.
+                    
+                    Eğer benimle çalışmak isterseniz ya da sadece bir sohbet yapmak isterseniz, iletişime geçmekten çekinmeyin. Yaratıcı projeler geliştirmek ve yeni teknolojiler keşfetmek için her zaman hazırım!
+                    
+                    </p>
             </div>
         </div>
     </section>
@@ -64,46 +85,59 @@
                 <div class="projeler-slide">
                     <img src="resimler/resim1.png" alt="Proje 1">
                     <div class="projeler-aciklama">
-                        <h3>Proje 1</h3>
-                        <p>Mimari çizim projelerinde bulundum</p>
+                        
                     </div>
                 </div>
                 <div class="projeler-slide">
                     <img src="resimler/resim2.png" alt="Proje 2">
                     <div class="projeler-aciklama">
-                        <h3>Proje 2</h3>
-                        <p>Proje açıklaması burada yer alacak. Bu proje, çeşitli özellikleri ve işlevleriyle dikkat çekiyor.</p>
+                        
                     </div>
                 </div>
                 <div class="projeler-slide">
                     <img src="resimler/resim3.jpg" alt="Proje 3">
                     <div class="projeler-aciklama">
-                        <h3>Proje 3</h3>
-                        <p>Proje açıklaması burada yer alacak. Bu proje, çeşitli özellikleri ve işlevleriyle dikkat çekiyor.</p>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </section>
     
-    <section id="iletisim" class="fade-in">
+    <section id="iletisim">
         <h2>İletişim</h2>
-        <form id="iletisim-formu">
+        <form id="iletisim-formu" action="irfandelil063000@gmail.com" method="POST" enctype="multipart/form-data">
             <div class="form-group">
-                <label for="isim">Adınız</label>
                 <input type="text" id="isim" name="isim" placeholder="Adınızı girin" required>
             </div>
             <div class="form-group">
-                <label for="email">E-posta</label>
                 <input type="email" id="email" name="email" placeholder="E-posta adresinizi girin" required>
             </div>
             <div class="form-group">
-                <label for="mesaj">Mesajınız</label>
                 <textarea id="mesaj" name="mesaj" placeholder="Mesajınızı yazın" rows="5" required></textarea>
             </div>
             <button type="submit">Gönder</button>
         </form>
     </section>
+    
+    <section id="sosyal-medya">
+        <h2>Beni Takip Edin</h2>
+        <div class="social-media">
+            <a href="https://github.com/irfandelil" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://tr.linkedin.com/in/irfan-delil-ab6310299" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="mailto:irfandelil063000@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i>
+                <span>E-posta</span>
+            </a>
+        </div>
+    </section>
+    
 
     <footer>
         <p>&copy; 2025 İrfan Delil. Tüm hakları saklıdır.</p>
